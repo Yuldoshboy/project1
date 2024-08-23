@@ -44,14 +44,14 @@
 }
 
 .navbar_top .nav_search_frame {
- width: 650px;
- height: 50px;
- 
- display: flex;
- flex-direction: row;
- align-items: center;
- background-color: #fff;
- border-radius: 6px;
+    width: 650px;
+    height: 50px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 6px;
 }
 
 .search_box .category_list {
@@ -155,14 +155,13 @@
 }
 
 .box_info_box span {
-/* [object Object] */
-color: rgb(255, 255, 255);
-font-family: Jost;
-font-size: 16px;
-font-weight: 400;
-line-height: 22px;
-letter-spacing: 0%;
-text-align: left;  
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: left;  
 }
 
 .box_info_box strong {
@@ -209,12 +208,12 @@ text-align: left;
 }
 
 .navbar_bottom .navbar_bot_menu_box {
-margin-top: 10px;
-width: auto;
-height: auto;
+    margin-top: 10px;
+    width: auto;
+    height: auto;
 
-display: flex;
-flex-direction: row;
+    display: flex;
+    flex-direction: row;
 }
 
 .navbar_bot_menu_box .browse_box {
@@ -237,9 +236,50 @@ flex-direction: row;
     color: rgb(255, 255, 255);
     font-family: Jost;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 28px;
-    letter-spacing: 0%;
-    text-align: left;
+    font-weight: 500;
+    line-height: 28px;    
 }
 
+.navbar_bot_menu_box .navbar_route_menu {
+    margin-left: 12px;
+    width: 690px;
+    display: flex;
+    flex-direction: row;    
+}
+
+.navbar_route_menu .router_menu {
+    margin-right: 20px;
+    width: auto;
+    height: 41px;
+
+    display: flex;
+}
+
+
+.router_menu a {
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-style: normal;
+}
+
+.router_menu a.active {
+    color: #f5c34b;
+}
+
+.navbar_bottom .sorting_menu {
+    display: flex;
+    flex-direction: row;  
+}
+
+.sorting_menu span {
+    margin-left: 20px;
+    color: rgb(255, 255, 255);
+    font-family: Jost;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 28px;
+    font-style: normal;
+}
