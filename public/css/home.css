@@ -158,20 +158,18 @@
     color: rgb(255, 255, 255);
     font-family: Jost;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 300;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;  
 }
 
-.box_info_box strong {
-    /* [object Object] */
+.box_info_box strong {    
     color: rgb(255, 255, 255);
     font-family: Jost;
     font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0%;
+    font-weight: 500;
+    line-height: 22px;    
     text-align: left;
 }
 
