@@ -249,13 +249,10 @@
 }
 
 .shop_category_frame .container {
-    /* width: 1320px;
-    height: auto;
-    display: flex; */
-    flex-direction: row; 
+    flex-direction: column; 
 }
 
-.container .category_top {
+.shop_category_frame .container .category_top {
     width: 100%;
     height: auto;
 
@@ -265,7 +262,7 @@
     align-items: center;
 }
 
-.category_top span {
+.shop_category_frame .category_top span {
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -274,7 +271,7 @@
     color: #041E42;
 }
 
-.category_top a {
+.shop_category_frame .category_top a {
     font-family: "Jost";
     font-style: normal;
     font-weight: 500;
@@ -283,10 +280,47 @@
     color: #041E42; 
 }
 
-.category_top a:hover {
+.shop_category_frame .category_top a:hover {
     border-bottom: 2px solid #041e42;
 }
 
-.container .category_wrapper {
-    
+.shop_category_frame .container .category_wrapper {
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.shop_category_frame .category_wrapper .category_box {
+  width: 142px;
+  height: auto;
+  
+  display: flex;
+  flex-direction: column;  
+  cursor: pointer;
+}
+
+.shop_category_frame .category_box .category_image {
+    width: 100%;
+    height: 150px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #eaeaea;
+    border-radius: 150px;
+}
+
+.shop_category_frame .category_box span {
+    margin-top: 15px;
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #041E42; 
+    text-align: center;
 }
