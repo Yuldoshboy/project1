@@ -178,3 +178,64 @@
     width: 100%;
     height: 100%;
 }
+
+/* SERVICE FRAME STARTS HERE */
+
+.home_page .service_frame {
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    height: auto;
+
+    display: flex;
+    justify-content: center;
+}
+
+.service_frame .container_1 {
+    width: 1320px;
+    height: auto;
+    display: flex;
+    flex-direction: row; 
+}
+
+.service_frame .container_1 .service_box {
+    width: 25%;
+    height: 86px;
+
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #dbcece;
+}
+
+.service_frame .service_box img {
+    width: 35px;
+    height: 35px;
+}
+
+.service_frame .service_box .service_content {
+    margin-left: 14px;
+    display: flex;
+    flex-direction: column;
+}
+
+.service_frame .service_content span {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 28px;
+    color: #041E42;
+}
+
+.service_frame .service_content p {
+    font-family: "Jost";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+    color: #041E42;
+}
+
+
+
+
