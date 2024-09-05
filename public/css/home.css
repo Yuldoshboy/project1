@@ -1053,9 +1053,8 @@
 
 .event_frame .container .event_content_box a button:hover {
     cursor: pointer;
-    background-color: rgb(214, 210, 224);
-    font-size: larger;
-    box-sizing: content-box;
+    background-color: rgb(189, 228, 144);
+    font-size: medium;
 }
 
 .event_frame .container .event_wrapper {
@@ -1122,7 +1121,7 @@
     color: black;
     font-family: Jost;
     font-size: 13px;
-    font-weight: 500;
+    font-weight: 300;
     line-height: 22px;
     letter-spacing: 0%;
     text-align: left;
@@ -1196,6 +1195,11 @@ footer .container .contact .phone {
     margin-top: 30px;
     margin-bottom: 60px;
 }
+
+footer .container .contact .phone img:hover {
+    cursor: pointer;
+}
+
 
 footer .container .contact .phone .live {
     display: flex;
@@ -1327,6 +1331,10 @@ footer .container .accept span {
     text-align: left;
 }
 
+footer .container .accept img:hover {
+    cursor: pointer;
+}
+
 /* Bottom */
 
 
@@ -1378,4 +1386,5 @@ footer .bottom .right .text p {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: left;
+    cursor: pointer;
 }
