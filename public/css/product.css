@@ -63,24 +63,25 @@ body .container .deal_frame {
 body .container .deal_frame .container {
     width: 1330px;
     height: 883px;
-
-    display: flex;
-    flex-direction: row;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
 body .container .deal_frame .container .first {
-    width: 1330px;
-    height: 800px;
-
-    box-sizing: border-box;
+    background-image: url(/public/images/young-woman-with-laptop-sitting-floor-pointing-finger-side\ \(1\)\ 1.svg);
+    width: 100%;
+    height: 570px;
     border-radius: 10px;
+    margin-top: 40px;
 }
 
 body .container .deal_frame .container .content {
     width: 1330px;
     height: 884px;
     position: absolute;
+    
 }
 
 body .container .deal_frame .container .content .real {
@@ -213,9 +214,8 @@ body .container .deal_frame .container .shop_category {
     width: 1330px;
     height: 278px;
     position: absolute;
-    margin: 720px 0 19px 0;
+    margin: 650px 0 19px 0;
     background-color: #ffffff;
-    padding-top: 30px;
 
     display: flex;
     flex-direction: column;
@@ -683,17 +683,19 @@ body .container .top_selling .products .comps .home_page .adv_frame {
 }
 
 /* Laptops and accessories */
-
-body .container .laptops {
+body .container .laptops  {
+    margin-top: 60px;
+    
     width: 1320px;
-    height: 60px;
+    height: auto;
 
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    align-items: center;
 }
 
 body .container .laptops .head {
-    margin-top: 65px;
+    margin-top: 25px;
 
     width: 1320px;
     height: 85px;
@@ -737,9 +739,7 @@ body .container .laptops .head .box {
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    
-
+    justify-content: space-between;   
 }
 
 body .container .laptops .head .box a {
@@ -781,17 +781,6 @@ body .container .laptops .box a .img {
 body .container .laptops .box a .img img {
     width: 10px;
     height: 121px;
-}
-
-body .container .laptops  {
-    margin-top: 90px;
-    
-    width: 1320px;
-    height: auto;
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 body .container .laptops .box .rows {
@@ -951,8 +940,10 @@ body .container .laptops .pagination .pagination_dot .dot {
     width: 30px;
     height: 30px;
 
-    font-size: 16px;
+    font-size: 14px;
     font-family: Jost;
+    font-weight: 400;
+
 
     display: flex;
     flex-direction: row;
@@ -969,17 +960,29 @@ body .container .laptops .pagination .pagination_dot .dot:hover {
     background-color: rgb(166, 189, 240);
 }
 
-body .container .laptops .pagination .pagination_main .pagination_dot img {
-    width: 22px;
-    height: 22px;
-    cursor: pointer;
-    align-items: center;
+body .container .laptops .pagination .pagination_main .pagination_dot .next {
+    width: 30px;
+    height: 30px;
 
-    border: 1px solid #e1e4e9;
-    border-radius: 50%;
+    font-size: 16px;
+    font-family: Jost;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+    border: 1px solid #bbcdeb;
+    border-radius: 50%;  
 }
 
-body .container .laptops .pagination .pagination_main .pagination_dot img:hover {
+body .container .laptops .pagination .pagination_main .pagination_dot img {
+    width: 8px;
+    height: 12px;    
+}
+
+body .container .laptops .pagination .pagination_main .pagination_dot .next:hover {
     background-color: rgb(166, 189, 240);
 }
 
