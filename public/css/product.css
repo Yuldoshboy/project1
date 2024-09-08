@@ -961,8 +961,8 @@ body .container .laptops .pagination .pagination_dot .dot:hover {
 }
 
 body .container .laptops .pagination .pagination_main .pagination_dot .next {
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
 
     font-size: 16px;
     font-family: Jost;
@@ -973,8 +973,9 @@ body .container .laptops .pagination .pagination_main .pagination_dot .next {
     justify-content: center;
     cursor: pointer;
 
-    border: 1px solid #bbcdeb;
+    border: 1px solid #e1e4e9;
     border-radius: 50%;  
+    background-color: #d9f197;
 }
 
 body .container .laptops .pagination .pagination_main .pagination_dot img {
@@ -983,7 +984,7 @@ body .container .laptops .pagination .pagination_main .pagination_dot img {
 }
 
 body .container .laptops .pagination .pagination_main .pagination_dot .next:hover {
-    background-color: rgb(166, 189, 240);
+    background-color: chocolate;
 }
 
 /* Footer */
