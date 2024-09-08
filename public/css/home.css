@@ -1280,7 +1280,7 @@ footer .container .contact .mobile_apps img {
     background-size: cover;
 }
 
-footer .container .contact .mobile_apps p {
+footer .container .contact .mobile .mobile_apps .live p {
   
     color: rgb(4, 30, 66);
     font-family: Jost;
@@ -1289,6 +1289,7 @@ footer .container .contact .mobile_apps p {
     line-height: 40px;
     letter-spacing: 0%;
     text-align: center;
+    cursor: pointer;
 }
 
 footer .container .contact .customer {
@@ -1341,7 +1342,7 @@ footer .container .accept img:hover {
 
 footer .bottom .right {
     margin-top: 90px 0;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     width: 1320px;
     height: 35px;
 
